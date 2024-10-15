@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="" href="">
+</head>
+<body>
+    <header>
+    <div class="button-box">
+            <div class="home-btn"><a href="../pag inicial/inicial.html"><img src="./img/home (1).png" alt="Home"></a></div>
+        <div class="user-box">
+            <div class="user-btn"><img src="./img/do-utilizador.png" alt="Foto do usuário"></div>
+        </div>
+            <div class="notifications">
+            <div class="nots-btn" onclick=hideNots><img src="./img/notificacao.png" alt="Notificações"></div>
+                <div class="msgs" onclick=showNots>
+                    <p>Example</p>
+                    <p>Example</p>
+                    <p>Example</p>
+                </div>
+        </div>
+    </div>
+    </header>
+        <script>
+            function showNots(){
+                const nots = document.querySelector('.msgs');
+                nots.style.display = "flex";
+            }
+            function hideNots(){
+                const nots = document.querySelector('.msgs');
+                nots.style.display = "none";
+            }
+        </script>
+<!-- <div class="in-between">
+    
+</div> -->
+    <main>
+<div class="personal-info">
+    <div class="user-info">
+        <p>Nome Completo</p>
+        <p>@user</p>
+    </div>
+    <div class="about-profile">
+        <img src="img/editar.png" alt="Editar Perfil">
+        <a href="../pag config/index.html"><img src="img/configuracoes.png" alt="configurações"></a>
+    </div>
+</div>
+<div class="section">
+    <div class="options">
+            <div class="pattern-box">
+            <div class="pattern-info"><a href="../pag carteira/index.html"><img src="img/carteira.png" alt="Carteira"></a>
+            <p>Carteira</p>
+            </div>
+            <div class="pattern-info"><a href="../pag historico/index.html"><img src="img/historia.png" alt="Histórico"></a>
+            <p>Histórico</p>
+            </div>
+            <div class="pattern-info"><a href="../pag salvos/index.html"><img src="img/salvar-instagram.png" alt="Salvos"></a>
+            <p>Salvos</p>
+            </div>
+            <div class="pattern-info"><a href="../pag carrinho/inder.html"><img src="img/carrinho-carrinho.png" alt="Carrinho de Compras"></a>
+            <p>Carrinho</p>
+            </div>
+        </div>
+    </div>
+    <div class="fav-section">
+        <div class="container">
+        <div class="fav-btn"><img src="./img/favorito.png" alt="Favoritos">
+            <div class="pattern-info">
+                <p>Favoritos</p>
+            </div>
+        </div>
+    </div>
+        <div class="fav-query">
+            <a href="../pag produto/index.html"><img src="img/casa-campo-vista-natureza-todos-ambientes-gilda-meirelles-credito-rafael-renzo-16.png" alt="Exemplo"></a>
+            <a href="../pag produto/index.html"><img src="img/f0c6e919-9122-4e5c-a077-acf511924ab8.jpeg" alt="Exemplo"></a>
+            <a href="../pag produto/index.html"><img src="img/images (3).jpg" alt="Exemplo"></a>
+        </div>
+    </div>
+</div>
+</main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Completo</title>
+    <link rel="stylesheet" href="styles/complete_registration.css">
+</head>
+<body>
+    <h2>Cadastro Completo</h2>
+    <form action="/php/process_complete_registration.php" method="post">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            
+            <label for="first_name">Nome:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Digite seu nome" required>
+            
+            <label for="last_name">Sobrenome:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Digite seu sobrenome" required>
+            
+            <label for="dob">Data de Nascimento:</label>
+            <input type="date" id="dob" name="dob" required>
+            
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Endereço</legend>
+            
+            <label for="street">Rua:</label>
+            <input type="text" id="street" name="street" placeholder="Digite sua rua" required>
+            
+            <label for="complement">Complemento:</label>
+            <input type="text" id="complement" name="complement" placeholder="Digite o complemento">
+            
+            <label for="neighborhood">Bairro:</label>
+            <input type="text" id="neighborhood" name="neighborhood" placeholder="Digite seu bairro" required>
+            
+            <label for="state">Estado:</label>
+            <input type="text" id="state" name="state" placeholder="Digite seu estado" required>
+            
+            <label for="country">País:</label>
+            <input type="text" id="country" name="country" placeholder="Digite seu país" required>
+        </fieldset>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome</title>
+    <link rel="icon" href="img/home.png">
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+<header>
+    <div id="help">
+        <img class="pattern-img" href="" src="img/home (1).png" alt="Ajuda">
+    </div>
+    <div class="buttons">
+        
+        <a href="register.html">Ir para registro.</a>
+    </div>
+</header>
+    <main>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="php/login.php" method="post">
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

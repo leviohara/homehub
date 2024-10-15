@@ -1,0 +1,39 @@
+*{
+    background-color: ;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    background-color: #FFDBAF;
+    height: 800px;
+}
+header{
+    display: flex;
+    background-color: #521908;
+    padding: 40px;
+}
+
+menu2{
+    align-self: center;
+}
+.nome{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 100%;
+}
+
+.preco{
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 200px;
+    text-align: center;
+    background-color: #CA7B42;
+    height: 500px;
+    margin-right: 100px;
+}
+.num_cartao{
+    margin-top: 20px;
+    width: 200px;
+    padding: 20px;
+}

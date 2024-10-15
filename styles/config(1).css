@@ -1,0 +1,93 @@
+header {
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #3F0F06;
+    width: 100%;
+}
+
+p {
+    
+    color: white;
+    font-size: 50px;
+}
+.header-box{
+    background-color: #CA7B42;
+    color: #fff;
+    padding: 10px 10px;
+    border: solid black 1px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+[alignn="1"]{
+	margin-left: 40%;
+}
+.conf{
+    display:flex;
+	justify-content: flex-start; 
+	align-items:center;
+}
+
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+    border: 1px solid black;
+    width: 30%;
+    border-right: 10%;
+    background-color: #ffdbaf;
+    font-size: 30px;
+    cursor: pointer;
+	padding:40px;
+}
+[viek="0"]{
+		margin-left:35%;
+}
+[viek="1"]{
+		margin-left:26%;
+}
+[viek="2"]{
+		margin-left:27%;
+}
+[viek="3"]{
+		margin-left:23%; 
+}
+[viek="4"] {
+		margin-left:21%;
+}
+[viek="5"] {
+		margin-left:32%;
+}
+.box-1:hover {
+    background-color: #3F0F06;
+    color: white;
+}
+.box-2:hover {
+    background-color: #3F0F06;
+    color: white;
+}
+.box-3:hover {
+    background-color: #3F0F06;
+    color: white;
+}
+.box-4:hover {
+    background-color: #3F0F06;
+    color: white;
+}
+.box-5:hover {
+    background-color: #3F0F06;
+    color: white;
+}
+.box-6:hover {
+    background-color: #3F0F06;
+    color: white;
+}
+
+img {
+    height: 50px;
+}
+footer {
+    background-color: #3F0F06;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}

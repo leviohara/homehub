@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: #3f0f06;
+    display:flex;
+    justify-content: space-between;
+}
+body{
+    background-color: #ffdbaf;
+    width: 100%;
+} 
+.buttons{
+    margin: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(233, 233, 233);
+}
+.buttons img{
+    width: 40px;
+}
+#return{
+    width: 40px;
+}
+.convo{
+    background-color: aqua;
+    margin: 0.2px;
+    border: #3f0f06 1px solid;
+    display: flex;
+    height: 20%;
+}
+.convo-info{
+    display: flex;
+    align-items: center;
+}
+.convo img{
+    width: 60px;
+    border-radius: 30px;
+    margin: 5px;
+}
+.convo p{
+    font-weight: bolder;
+}
+.nots img{
+    width: 10px;
+}
+
+.chat-box{
+    margin: 10px;
+    display: flex;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    width: 160%;
+    background-color: red;
+    align-items: center;
+}
+.main-info{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    width: 50%;
+}
+.contact-info img{
+    width: 70px;
+    border-radius: 40px;
+} 
+
+.msg-box{
+    background-color: aqua;
+    width: 160%;
+    height: 100%;
+}
+.menu img{
+    width: 30px;
+}
+/* CHAT DE MENSAGEM */
+.msg-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.date{
+    background-color: #d6753a;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    border-radius: 20px;
+}
+.container-msg{
+    width: 100%;
+
+}
+.msg_receiver{
+    width: 30%;
+    border-radius: 20px;
+    background-color: #ccc;
+}
+.msg_receiver p, i{
+    display: flex;
+    justify-content: center;
+}
