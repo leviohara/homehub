@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffdbaf;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    border: 2px solid #d6753a;
+    border-radius: 10px;
+    padding: 10px;
+}
+fieldset legend{
+    font-size: 23px;
+    font-weight: 600;
+}
+label{
+    font-weight: 800;
+    margin: 10px;
+    background-color: red;
+}
+input{
+    font-style: italic;
+    border: none;
+    padding: 5px;
+}
+#fieldset-one, #fieldset-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.div-separador{
+    width: 30%;
+    padding: 40px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-fieldset{
+    background-color: aqua;
+    padding: 20px;
+}
