@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeHub</title>
+    <link rel="icon" href="img/home.png">
+    <link rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+    <header>
+      <div id="help">
+        <img class="pattern-img" href="" src="img/home (1).png" alt="Volta Pra Pagina Principal">
+    </div>
+    <div class="buttons">
+        <a href="login.html">Ir para Login.</a>
+    </div>
+    </header>
+        <main>
+            <div class="container">
+                <form action="php/signup_seller.php" method="post">
+                  <h2>Cadastro</h2>
+                  <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                  </div> 
+                  <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone_number">Número de Telefone:</label>
+                    <input type="text" id="phone_number" name="phone_number" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" placeholder="Digite seu CEP" required>
+                  </div>
+                  <button type="submit">Cadastrar</button>
+        </main>
+        <footer>
+          <h1></h1>
+        </footer>
+    
+</body>
+</html>
